@@ -1,0 +1,75 @@
+body{
+    /* font-family: 'Parisienne', cursive; this is cursive font */
+    font-family: 'Nova Round', cursive;
+    color: rgb(55 37 17);
+    /* background: linear-gradient(60deg, #ffc9b5 0%, #937142 100%); */
+    background: linear-gradient(60deg, #ffffff 30%, #bca381 100%);
+
+}
+
+.topproblem{
+    display: flex;
+    margin-top: 0;
+    /* height: 100vh; */
+    padding-top: 10vh;
+}
+
+.content{
+    padding: 3vh 3vh;
+    /* border: 2px solid red; */
+    width: 40%;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+}
+
+.image{
+    /* border: 2px solid red; */
+    width: 60%;
+    /* background-image: url(images/worldmap.jpg); */
+    /* background-repeat: no-repeat; */
+    /* background-position: center; */
+    /* object-fit: cover; */
+}
+
+.title{
+    /* border: 2px solid blue; */
+    margin: 5vh 0vh;
+    margin-bottom: 0%;
+    text-align: inherit;
+    font-family: 'Raleway', sans-serif;
+    font-size: 7vh;
+    color: #fd5618;
+}
+
+.footer{
+    height: 40vh;
+    background-color: #eee8e0;
+    width: unset;
+    margin: 0px;
+}
+
+.second{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+
+.tag{
+    margin-top: 0%;
+    padding: 2vh;
+    padding-left: 0%;
+    padding-top: 0%;
+    color: #a9885d;
+}
+
+.imagess{
+    width: 125vh;
+    object-fit: contain;
+}
+
+a:visited{
+    color: #a9885d;
+    text-decoration: none;
+}
